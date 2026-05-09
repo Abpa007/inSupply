@@ -1,4 +1,4 @@
-# InventoryPro — Inventory Management System
+# inSupply — Inventory & Supply Management System
 
 [![Node](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen.svg)](https://nodejs.org/)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)]()
@@ -289,13 +289,5 @@ The backend includes a `vercel.json` that routes all `/api/v1/*` traffic to `ind
 
 ---
 
-## 📞 Contact
-
-**GitHub**: [SuryaX2/IMS](https://github.com/SuryaX2/IMS/)  
-**Email**: sekharsurya111@gmail.com
-
----
-
-<div align="center">
   Made with ❤️ by <strong>SuryaX2</strong> &nbsp;|&nbsp; API v1.0.0
 </div>
