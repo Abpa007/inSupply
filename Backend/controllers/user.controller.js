@@ -106,7 +106,7 @@ const registerUser = asyncHandler(async (req, res, next) => {
         `,
     };
 
-    await transporter.sendMail(mailOptions);
+    // await transporter.sendMail(mailOptions);
 
     return res
         .status(201)
