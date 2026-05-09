@@ -418,7 +418,7 @@ const sendChangePasswordOtp = asyncHandler(async (req, res, next) => {
         await user.save({ validateBeforeSave: false });
 
         const mailOptions = {
-            from: process.env.EMAIL_USER,
+            from: process.env.SENDER_EMAIL,
             to: user.email,
             subject: "Change Password - Verify your email",
             html: `
