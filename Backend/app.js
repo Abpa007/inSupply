@@ -6,7 +6,7 @@ import errorHandler from "./middleware/error.middleware.js";
 const app = express();
 
 const allowedOrigins = [
-    "https://in-supply.vercel.app",
+    "https://inventorypro-ims.vercel.app",
     "http://localhost:3000",
     "http://localhost:5173",
 ];

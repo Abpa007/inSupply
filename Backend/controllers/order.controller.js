@@ -345,7 +345,7 @@ const generateInvoice = asyncHandler(async (req, res, next) => {
             .fillColor(subtleColor)
             .font("Helvetica")
             .text(
-                `inSupply - Invoice #${orderDetails.invoice_no}`,
+                `InventoryPro - Invoice #${orderDetails.invoice_no}`,
                 50,
                 700,
                 {

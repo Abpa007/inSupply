@@ -50,7 +50,7 @@ class LowStockScheduler {
                 .join("");
 
             const mailOptions = {
-                from: `inSupply <${process.env.SENDER_EMAIL}>`,
+                from: `InventoryPro <${process.env.SENDER_EMAIL}>`,
                 to: userEmail,
                 subject: "🚨 Weekly Low Stock Alert - Action Required",
                 html: `

@@ -366,7 +366,7 @@ const sendVerifyOtp = asyncHandler(async (req, res, next) => {
         await user.save({ validateBeforeSave: false });
 
         const mailOptions = {
-            from: process.env.SENDER_EMAIL,
+            from: process.env.EMAIL_USER,
             to: user.email,
             subject: "Account Verification - Verify your email",
             html: `
@@ -560,19 +560,16 @@ const sendResetOtp = asyncHandler(async (req, res, next) => {
         user.resetOtpExpiry = Date.now() + 10 * 60 * 1000; // 10 minutes
         await user.save({ validateBeforeSave: false });
 
-       const mailOptions = {
-            from: process.env.SENDER_EMAIL,
-            to: user.email,
-            subject: "Account Verification - Verify your email",
+        const mailOptions = {
+            to: email,
+            subject: "Password Reset OTP",
             html: `
-                <div style="font-family: Arial, sans-serif; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 10px; background-color: #f9f9f9;">
-                    <h2 style="color: #333; text-align: center;">Account Verification</h2>
+                <div style="font-family: Arial, sans-serif; padding: 20px;">
+                    <h2 style="color: #333; text-align: center;">Password Reset OTP</h2>
                     <p style="font-size: 16px; color: #555;">Hi <strong>${user.username}</strong>,</p>
-                    <p style="font-size: 16px; color: #555;">Please use the following OTP to verify your email:</p>
+                    <p style="font-size: 16px; color: #555;">Please use the following OTP to reset your password:</p>
                     <div style="text-align: center; margin: 20px 0;">
-                        <span style="background-color: #4CAF50; color: white; padding: 12px 24px; border-radius: 5px; font-size: 24px; font-weight: bold; display: inline-block;">
-                            ${otp}
-                        </span>
+                        <span style="font-size: 24px; font-weight: bold; color: #007BFF;">${otp}</span>
                     </div>
                     <p style="font-size: 16px; color: #555;">This OTP is valid for <strong>10 minutes</strong>.</p>
                     <p style="font-size: 16px; color: #555;">If you did not request this, please ignore this email.</p>
@@ -581,6 +578,7 @@ const sendResetOtp = asyncHandler(async (req, res, next) => {
                 </div>
             `,
         };
+
         await transporter.sendMail(mailOptions);
 
         return res
