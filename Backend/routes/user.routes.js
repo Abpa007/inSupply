@@ -45,8 +45,8 @@ router
 
 router.route("/current-user").get(verifyJWT, getCurrentUser);
 
-router.route("/send-verify-otp").post(verifyJWT, sendVerifyOtp);
-router.route("/verify-email").post(verifyJWT, verifyEmail);
+// router.route("/send-verify-otp").post(verifyJWT, sendVerifyOtp);
+// router.route("/verify-email").post(verifyJWT, verifyEmail);
 
 router.route("/is-auth").post(verifyJWT, isAuthenticated);
 
