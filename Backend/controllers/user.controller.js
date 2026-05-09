@@ -366,7 +366,7 @@ const sendVerifyOtp = asyncHandler(async (req, res, next) => {
         await user.save({ validateBeforeSave: false });
 
         const mailOptions = {
-            from: process.env.EMAIL_USER,
+            from: process.env.SENDER_EMAIL,
             to: user.email,
             subject: "Account Verification - Verify your email",
             html: `
