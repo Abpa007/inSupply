@@ -138,7 +138,7 @@ const Navbar = () => {
             <Drawer
                 title={
                     <span className="text-lg font-semibold text-gray-900 tracking-tight">
-                        inSupply
+                        InventoryPro
                     </span>
                 }
                 placement="right"

@@ -19,7 +19,7 @@ const Footer = () => {
                     <Col xs={24} md={12} lg={14}>
                         <div>
                             <h1 className="text-2xl font-bold text-white mb-3 tracking-tight">
-                                inSupply
+                                InventoryPro
                             </h1>
                             <p className="text-slate-400 text-sm leading-relaxed mb-8 max-w-md">
                                 Smart inventory management for modern
