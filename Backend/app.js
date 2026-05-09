@@ -7,6 +7,7 @@ const app = express();
 
 const allowedOrigins = [
     "https://inventorypro-ims.vercel.app",
+    "https://in-supply.vercel.app/",
     "http://localhost:3000",
     "http://localhost:5173",
 ];
