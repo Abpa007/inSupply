@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./pages/auth/Login";
-import EmailVerify from "./pages/auth/EmailVerify";
+// import EmailVerify from "./pages/auth/EmailVerify";
 import ResetPassword from "./pages/auth/ResetPassword";
 import Signup from "./pages/auth/Signup";
 import { Toaster } from "react-hot-toast";
@@ -37,14 +37,14 @@ function App() {
                         />
 
                         {/* Email verification route (protected, but doesn't require verification) */}
-                        <Route
+                        {/* <Route
                             path="/email-verify"
                             element={
                                 <ProtectedRoute requireVerified={false}>
                                     <EmailVerify />
                                 </ProtectedRoute>
                             }
-                        />
+                        /> */}
                         {/* Profile page (protected) */}
                         <Route
                             path="/profile"
