@@ -1,13 +1,5 @@
-# InventoryPro — Inventory Management System
+# inSupply — Inventory Management System
 
-[![Node](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen.svg)](https://nodejs.org/)
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)]()
-[![License](https://img.shields.io/badge/license-ISC-lightgrey.svg)]()
-[![Deploy](https://img.shields.io/badge/deployed-Vercel-black.svg)](https://inventorypro-ims.vercel.app)
-
-A production-grade, multi-tenant **Inventory Management System** built on the MERN stack. InventoryPro handles the full supply-chain loop — from supplier purchase orders and real-time stock tracking to customer sales orders, PDF invoice generation, and automated weekly low-stock email alerts — all behind a layered JWT + RBAC authentication system.
-
----
 
 ## 🧠 Key Features
 
@@ -288,14 +280,3 @@ The backend includes a `vercel.json` that routes all `/api/v1/*` traffic to `ind
 - **Rate limiting** on auth endpoints (OTP send, login) to protect against brute-force and OTP enumeration attacks.
 
 ---
-
-## 📞 Contact
-
-**GitHub**: [SuryaX2/IMS](https://github.com/SuryaX2/IMS/)  
-**Email**: sekharsurya111@gmail.com
-
----
-
-<div align="center">
-  Made with ❤️ by <strong>SuryaX2</strong> &nbsp;|&nbsp; API v1.0.0
-</div>
