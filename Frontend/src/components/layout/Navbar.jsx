@@ -54,7 +54,7 @@ const Navbar = () => {
                         }`}
                         onClick={() => handleNavigation("/")}
                     >
-                        InventoryPro
+                        InSupply
                     </div>
                 </div>
 
@@ -138,7 +138,7 @@ const Navbar = () => {
             <Drawer
                 title={
                     <span className="text-lg font-semibold text-gray-900 tracking-tight">
-                        InventoryPro
+                        InSupply
                     </span>
                 }
                 placement="right"

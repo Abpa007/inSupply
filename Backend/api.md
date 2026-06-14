@@ -1,4 +1,4 @@
-# 📦 InventoryPro API Documentation
+# 📦 InSupply API Documentation
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![Node](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen.svg)
@@ -191,7 +191,7 @@ Automated task management and low stock alert system (Admin only).
 
 ### JWT Token Authentication
 
-InventoryPro uses **JSON Web Tokens (JWT)** for secure authentication. Include the access token in the request header:
+InSupply uses **JSON Web Tokens (JWT)** for secure authentication. Include the access token in the request header:
 
 ```
 Authorization: Bearer <your_access_token>

@@ -19,7 +19,7 @@ const Footer = () => {
                     <Col xs={24} md={12} lg={14}>
                         <div>
                             <h1 className="text-2xl font-bold text-white mb-3 tracking-tight">
-                                InventoryPro
+                                InSupply
                             </h1>
                             <p className="text-slate-400 text-sm leading-relaxed mb-8 max-w-md">
                                 Smart inventory management for modern
@@ -87,7 +87,7 @@ const Footer = () => {
 
                 <div className="flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-slate-500 text-sm">
-                        © {new Date().getFullYear()} InventoryPro. All rights
+                        © {new Date().getFullYear()} InSupply. All rights
                         reserved.
                     </p>
                     <div className="flex gap-8">

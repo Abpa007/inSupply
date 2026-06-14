@@ -69,13 +69,13 @@ const SidebarLogo = ({ collapsed, onClick }) => (
         {collapsed ? (
             <img
                 src="/InSupply_box_logo.png"
-                alt="InventoryPro Logo"
+                alt="InSupply Logo"
                 className="h-10 w-auto transition-transform duration-200 group-hover:scale-105 drop-shadow-lg"
             />
         ) : (
             <img
                 src="/InSupply_Logo.png"
-                alt="InventoryPro Logo"
+                alt="InSupply Logo"
                 className="h-20 w-auto transition-transform duration-200 group-hover:scale-105 drop-shadow-lg"
             />
         )}
