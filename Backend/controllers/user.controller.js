@@ -93,7 +93,7 @@ const registerUser = asyncHandler(async (req, res, next) => {
             </p>
             <p style="font-size: 16px; color: #555; text-align: center;">
                 If you have any questions, feel free to reach out to our support team at 
-                <a href="mailto:sekharsurya111@gmail.com" style="color: #4CAF50; text-decoration: none;">sekharsurya111@gmail.com</a>.
+                <a href="mailto:abhaypanchal095@gmail.com" style="color: #4CAF50; text-decoration: none;">abhaypanchal095@gmail.com</a>.
             </p>
             <p style="font-size: 16px; color: #555; text-align: center; margin-top: 20px;">
                 Regards, <strong> Surya</strong>

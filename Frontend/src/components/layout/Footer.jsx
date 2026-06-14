@@ -28,7 +28,7 @@ const Footer = () => {
                             </p>
                             <Space size="large" className="text-3xl">
                                 <a
-                                    href="https://github.com/SuryaX2"
+                                    href="https://github.com/Abpa007/inSupply.git"
                                     target="_blank"
                                     rel="noreferrer"
                                     aria-label="GitHub"
@@ -37,7 +37,7 @@ const Footer = () => {
                                     <GithubOutlined className="text-slate-400 hover:text-white" />
                                 </a>
                                 <a
-                                    href="https://x.com/SuryaSekharSha2"
+                                    href=""
                                     target="_blank"
                                     rel="noreferrer"
                                     aria-label="Twitter"
@@ -46,7 +46,7 @@ const Footer = () => {
                                     <TwitterOutlined className="text-slate-400 hover:text-white" />
                                 </a>
                                 <a
-                                    href="https://www.instagram.com/surya.sekhar.sharma"
+                                    href=""
                                     target="_blank"
                                     rel="noreferrer"
                                     aria-label="Instagram"
@@ -55,7 +55,7 @@ const Footer = () => {
                                     <InstagramFilled className="text-slate-400 hover:text-white" />
                                 </a>
                                 <a
-                                    href="https://www.linkedin.com/in/suryax2"
+                                    href="https://linkedin.com/in/abhay-panchal-3b853b376"
                                     target="_blank"
                                     rel="noreferrer"
                                     aria-label="LinkedIn"
@@ -73,11 +73,11 @@ const Footer = () => {
                                 Get in Touch
                             </h2>
                             <a
-                                href="mailto:sekharsurya111@gmail.com"
+                                href="mailto:abhaypanchal095@gmail.com"
                                 className="text-slate-400 text-sm hover:text-white transition-colors duration-200 flex items-center gap-2 group"
                             >
                                 <MailOutlined className="text-base group-hover:scale-110 transition-transform duration-200" />
-                                sekharsurya111@gmail.com
+                                abhaypanchal095@gmail.com
                             </a>
                         </div>
                     </Col>

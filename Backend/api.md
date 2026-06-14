@@ -292,9 +292,9 @@ All routes require authentication except:
 
 ## 📞 Support & Contact
 
-**GitHub Repository**: [Visit Repository](https://github.com/SuryaX2/IMS/)
+**GitHub Repository**: [Visit Repository](https://github.com/Abpa007/inSupply.git/)
 
-**Email**: sekharsurya111@gmail.com
+**Email**: abhaypanchal095@gmail.com
 
 ---
 
