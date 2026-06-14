@@ -60,6 +60,7 @@ const DashboardSidebar = ({ collapsed, setCollapsed, currentPage }) => {
 };
 
 
+
 const SidebarLogo = ({ collapsed, onClick }) => (
     <div
         className="flex items-center justify-center px-4 py-6 cursor-pointer group transition-all duration-200"
