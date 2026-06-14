@@ -183,11 +183,12 @@ const EmailVerify = () => {
                     </>
                 )}
 
+
                 <div className="mt-8 pt-6 border-t border-gray-100 text-center">
                     <Text className="text-sm text-gray-500">
                         Need help?{" "}
                         <a
-                            href="mailto:sekharsurya111@gmail.com"
+                            href="mailto:abhaypanchal095@gmail.com"
                             className="text-blue-600 hover:text-blue-700 font-medium transition-colors"
                         >
                             Contact Support
