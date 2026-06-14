@@ -38,6 +38,7 @@ const DashboardSidebar = ({ collapsed, setCollapsed, currentPage }) => {
             <SidebarLogo collapsed={collapsed} onClick={handleLogoClick} />
             <div className="mx-4 mb-4 h-px bg-slate-700/50"></div>
 
+
             <div className="px-3">
                 <Menu
                     theme="dark"
